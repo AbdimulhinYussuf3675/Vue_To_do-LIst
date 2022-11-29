@@ -57,6 +57,7 @@
 </template>
   
 <script>
+
 import { VueDraggableNext } from 'vue-draggable-next'
 export default {
   name: 'todo-list',
