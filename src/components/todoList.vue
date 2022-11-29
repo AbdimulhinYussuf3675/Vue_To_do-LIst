@@ -38,7 +38,7 @@
           <div class="link1">{{ remaining }} items left</div>
           <div class="clear">
             <transition name="fade">
-              <a id="clear" class="clear" v-if="showClearCompleted" @click="clearCompleted">Clear Completed</a>
+              <a id="clear" class="clear" @click="clearCompleted">Clear Completed</a>
             </transition>
           </div>
         </div>
@@ -57,7 +57,6 @@
 </template>
   
 <script>
-
 import { VueDraggableNext } from 'vue-draggable-next'
 export default {
   name: 'todo-list',
@@ -101,9 +100,6 @@ export default {
       }
       return this.todos
     },
-    showClearCompleted() {
-      return this.todos.filter(todo => todo.completed).length > 0
-    }
   },
   methods: {
     addTodo() {

@@ -4,8 +4,6 @@
 <script>
 import { VueDraggableNext } from 'vue-draggable-next'
 export default {
-  components: {
-    draggable: VueDraggableNext,
-  },
+  name:'draggable'
 };
 </script>
