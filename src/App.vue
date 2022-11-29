@@ -18,8 +18,6 @@ export default {
   font-size: 24px;
   background-color: rgb(245, 244, 244);
 }
-
-
 * {
   box-sizing: border-box;
   margin: 0;
