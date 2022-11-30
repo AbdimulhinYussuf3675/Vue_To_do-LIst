@@ -73,13 +73,25 @@ export default {
       todos: [
         {
           'id': 0,
-          'title': 'Learn Data Algorithms',
+          'title': 'Jog around the park 3x',
           'completed': false,
           'editing': false
         },
         {
           'id': 1,
-          'title': 'Go to for Prayers',
+          'title': 'Read for 1 hour',
+          'completed': false,
+          'editing': false
+        },
+        {
+          'id': 2,
+          'title': '10 minutes meditation',
+          'completed': false,
+          'editing': false
+        },
+        {
+          'id': 3,
+          'title': 'Pick Up groceries',
           'completed': false,
           'editing': false
         }
